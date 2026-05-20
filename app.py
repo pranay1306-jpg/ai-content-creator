@@ -7,7 +7,7 @@ from pydantic import BaseModel
 from agents import PlannerAgent, ContentAgent, OptimizerAgent
 from memory import get_past_topics_for_niche, add_to_memory
 
-app = FastAPI(title="AI Content Creator API")
+app = FastAPI(title="Content Forge AI API")
 
 # Request Model
 class GenerationRequest(BaseModel):
