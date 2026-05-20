@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Creator</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>AI Content <span>Creator</span></h1>
+            <p>Generate viral scripts, hooks, and ideas in seconds.</p>
+        </header>
+
+        <main>
+            <!-- Input Section -->
+            <section class="glass-panel" id="input-section">
+                <h2>Configure Content</h2>
+                <form id="content-form">
+                    <div class="form-group">
+                        <label for="niche">Niche</label>
+                        <input type="text" id="niche" placeholder="e.g. Exploring Abandoned Locations" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="audience">Target Audience</label>
+                        <input type="text" id="audience" placeholder="e.g. Urban explorers and thrill seekers" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="platform">Platform</label>
+                        <select id="platform" required>
+                            <option value="YouTube Shorts">YouTube Shorts</option>
+                            <option value="Instagram Reels">Instagram Reels</option>
+                            <option value="TikTok">TikTok</option>
+                            <option value="LinkedIn">LinkedIn</option>
+                            <option value="Twitter / X">Twitter / X</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="goals">Goals</label>
+                        <input type="text" id="goals" value="Maximize engagement and virality" required>
+                    </div>
+                    <button type="submit" id="generate-btn">
+                        <span class="btn-text">Generate Content ✨</span>
+                        <div class="spinner hidden"></div>
+                    </button>
+                </form>
+            </section>
+
+            <!-- Loading State -->
+            <section class="loading-state hidden" id="loading-section">
+                <div class="loading-steps">
+                    <div class="step active" id="step-plan">🧠 Planning ideas & checking memory...</div>
+                    <div class="step" id="step-draft">✍️ Drafting scripts & captions...</div>
+                    <div class="step" id="step-opt">🚀 Optimizing hooks & SEO...</div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-state hidden" id="results-section">
+                <h2>Generated Content</h2>
+                
+                <div class="result-card">
+                    <h3>💡 Selected Idea</h3>
+                    <h4 id="res-title" class="gradient-text"></h4>
+                    <p id="res-desc"></p>
+                </div>
+
+                <div class="result-card">
+                    <h3>🎬 Optimized Script</h3>
+                    <pre id="res-script"></pre>
+                </div>
+
+                <div class="grid-2">
+                    <div class="result-card">
+                        <h3>🎣 Alternative Hooks</h3>
+                        <ul id="res-hooks"></ul>
+                    </div>
+                    <div class="result-card">
+                        <h3>📱 Caption & CTA</h3>
+                        <p id="res-caption"></p>
+                    </div>
+                </div>
+
+                <div class="grid-2">
+                    <div class="result-card">
+                        <h3>🔍 SEO Keywords</h3>
+                        <div class="tags" id="res-seo"></div>
+                    </div>
+                    <div class="result-card">
+                        <h3>#️⃣ Hashtags</h3>
+                        <div class="tags" id="res-hashtags"></div>
+                    </div>
+                </div>
+                
+                <button id="reset-btn" class="secondary-btn">Create Another</button>
+            </section>
+        </main>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
