@@ -1,41 +1,39 @@
-# Hi, I'm Bongi Pranay 👋
+# Content Forge AI
 
-Computer Science Engineering Student | AI/ML Enthusiast | Python Developer
+Content Forge AI is an autonomous content generation platform that creates scripts, captions, hashtags, SEO keywords, and content strategies using Generative AI.
 
-## About Me
+## Features
 
-* 🎓 B.E. Computer Science and Engineering (Core)
-* 🏫 Sathyabama Institute of Science and Technology
-* 📊 CGPA: 8.2/10
-* 💻 Passionate about Artificial Intelligence, Machine Learning, and Software Development
-* 🌱 Currently learning advanced AI systems, agentic workflows, and scalable backend development
+* Content idea generation
+* Script writing
+* Caption generation
+* SEO optimization
+* Hashtag generation
+* Topic memory system
+* Automated workflow execution
 
-## Technical Skills
+## Tech Stack
 
-Python • Java • C • SQL • MySQL
+* Python
+* FastAPI
+* Gemini API
+* Pydantic
+* HTML
+* CSS
+* JavaScript
 
-FastAPI • LangChain • LangGraph • SQLAlchemy
+## Problem Statement
 
-HTML • CSS • JavaScript
+Content creators spend significant time researching topics, writing scripts, and optimizing content. Content Forge AI automates these tasks to improve efficiency and consistency.
 
-Git • GitHub • FAISS • HuggingFace Embeddings • Gemini API
+## Future Improvements
 
-## Featured Projects
+* Multi-platform publishing
+* Analytics dashboard
+* Team collaboration features
+* Advanced content personalization
 
-### RoadWatch
+## Author
 
-A civic-tech platform for reporting and tracking road hazards while improving transparency through budget tracking dashboards.
+Bongi Pranay
 
-### MultiAgentResearch
-
-A multi-agent AI system that performs research, debate, fact-checking, and automated intelligence report generation.
-
-### Content Forge AI
-
-An AI-powered content generation platform that automates script writing, captions, SEO keywords, hashtags, and content strategy.
-
-## Connect With Me
-
-LinkedIn: [www.linkedin.com/in/pranaybongi/](http://www.linkedin.com/in/pranaybongi/)
-
-Email: [pranay.bkumar5@gmail.com](mailto:pranay.bkumar5@gmail.com)
